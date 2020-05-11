@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Test_Khevoyan</string>
+    <string name="popular_movies_head">Popular Movies</string>
+    <string name="original_langauge_label">Original_langauge:</string>
+    <string name="genres_label">Genres:</string>
+    <string name="adult_label">Adult:</string>
+    <string name="popularity_label">Popularity:</string>
+    <string name="vote_label">Vote average:</string>
+</resources>

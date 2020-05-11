@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:padding="20dp">
+        <TextView
+            android:id="@+id/movies_head"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/movie_image"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/movies_head" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/movie_image" />
+
+        <TextView
+            android:id="@+id/original_langauge_label"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:text="@string/original_langauge_label"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/desc" />
+
+        <TextView
+            android:id="@+id/original_langauge_value"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/original_langauge_label"
+            app:layout_constraintTop_toTopOf="@id/original_langauge_label" />
+
+        <TextView
+            android:id="@+id/genres_label"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:text="@string/genres_label"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/original_langauge_value" />
+
+        <TextView
+            android:id="@+id/genres_value"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/genres_label"
+            app:layout_constraintTop_toTopOf="@id/genres_label" />
+
+
+        <TextView
+            android:id="@+id/adult_label"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:text="@string/adult_label"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/genres_value" />
+
+        <TextView
+            android:id="@+id/adult_value"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/adult_label"
+            app:layout_constraintTop_toTopOf="@id/adult_label" />
+
+        <TextView
+            android:id="@+id/popularity_label"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:text="@string/popularity_label"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/adult_value" />
+
+        <TextView
+            android:id="@+id/popularity_value"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/popularity_label"
+            app:layout_constraintTop_toTopOf="@id/popularity_label" />
+
+        <TextView
+            android:id="@+id/vote_label"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:text="@string/vote_label"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/popularity_value" />
+
+        <TextView
+            android:id="@+id/vote_value"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/vote_label"
+            app:layout_constraintTop_toTopOf="@id/vote_label" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
